@@ -1,0 +1,79 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    *{
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        /* align-content: center; */
+        padding-top: .0%;
+        font-family: poppins,sans-serif;
+        /* background: linear-gradient(#ffafbd , #ffc3a0); */
+        background: linear-gradient(#eecda3 , #ef629f);
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    #container{
+        height: 750px;
+        display: block;
+        width: auto;
+        padding: 1% 3%;
+        margin-top:1.5%;
+        background-color: rgb(167, 37, 228);
+        border-radius: 10px;
+    }
+    #container .ani{
+        font-size: 40px;
+        text-align: center;
+        padding: 0% 2% 0%;
+        background-color: rgb(241, 245, 41);
+        border-radius: 10px;
+        color: #212121;
+    }
+    
+    #container h1{
+        font-size: 40px;
+        text-align: center;
+        padding: 3% 0 0%;
+        color: #ffffff;
+    }
+    #container .item1{
+        height: 500px;
+        width: 550px;
+    }
+    #container .label {
+        display: flex;
+        position: relative;
+        left: 22%;
+        font-size: 20px;
+        color: rgb(250, 234, 234);
+        padding: 4% 0 0;
+        width: 200px;
+    }
+    #container button{
+        font-size: 20px;
+        border: 0px solid black;
+        color: black;
+        background-color: rgb(241, 245, 41);
+        border-radius: 10px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 3% 34%;
+        cursor: pointer;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: 10% 10% 0;
+    }
+    #container .item1 #second{
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin: 5% 0 0%;
+        font-weight: 900;
+        padding: 2% 2% ;
+        background: linear-gradient(170deg, #ef629f,#eecda3 ) ;
+        border-radius: 10px;
+    }
+}
