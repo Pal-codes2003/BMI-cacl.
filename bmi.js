@@ -8,7 +8,7 @@ function submit(){
     var z = Math.floor(x/Math.pow(y,2));
 
     if(z < 18.5){
-        document.getElementById("second").innerHTML= "Hello " + p + " Your B-M-I Is (" + z + ") You Are In The Range Of Under Weight.";              ";
+        document.getElementById("second").innerHTML= "Hello " + p + " Your B-M-I Is (" + z + ") You Are In The Range Of Under Weight.              ";
     }
     else if(z >= 18.5 && z < 25){
         document.getElementById("second").innerHTML= "Hello " + p + " Your B-M-I Is (" + z + ") You Are In The Range Of Healthy Weight.";
