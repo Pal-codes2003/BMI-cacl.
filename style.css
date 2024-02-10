@@ -13,7 +13,7 @@ body{
     /* background: linear-gradient(#ffafbd , #ffc3a0); */
     background: linear-gradient(#eecda3 , #ef629f);
     background-repeat: no-repeat;
-    height: auto;
+    height: 100vh;
 }
 
 #container{
